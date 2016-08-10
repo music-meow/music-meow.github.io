@@ -1,0 +1,22 @@
+#story {
+  width: 100%;
+  height: 150px;
+  background: turquoise;
+}
+.button {
+  width: 200px;
+  height: 30px;
+  border: dotted;
+  float:left;
+  border-color: turquoise
+}
+#opt1 {
+  background: pink;
+}
+#opt2 {
+  background: yellow;
+}
+
+body{
+  background-color:black
+}
