@@ -56,7 +56,7 @@ function Down() {
 function restart() {
    story.innerHTML = "Ready to be Challenged?";
   opt1.innerHTML = "Defenentally!";
-  opt1.onclick = function() {Run()};
+  opt1.onclick = function() {play()};
   opt2.innerHTML = "Is it scary?";
   opt2.onclick = function() {boring()};
 }
