@@ -4,7 +4,7 @@ var opt2 = document.getElementById("opt2");
 var name;
 
 function boring() {
-  alert("That remains to be unseen.");
+  alert("That remains to be seen.");
   story.innerHTML = "Wimp!"
   opt1.innerHTML = "Restart";
   opt1.onclick = function() {restart()}
