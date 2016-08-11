@@ -70,7 +70,7 @@ function Stay() {
 
 function restart() {
    story.innerHTML = "Ready to be Challenged?";
-  opt1.innerHTML = "Defenentally!";
+  opt1.innerHTML = "Definitely!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "Is it scary?";
   opt2.onclick = function() {boring()};
