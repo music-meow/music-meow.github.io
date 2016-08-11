@@ -45,18 +45,33 @@ function Up() {
 }
 
 function Down() {
-   story.innerHTML = "You go down and find a rebel army with armour and weapons. You battle the army and win. Good job agent " + ", you did it!" ;
+   story.innerHTML = "You go down and find a rebel army with armour and weapons. Do you battle with them or stay back and watch the base?" ;
+  opt1.innerHTML = "Go with them";
+  opt1.onclick = function() {Go()};
+  opt2.innerHTML = "Stay back";
+  opt2.onclick = function() {Stay()};
+}
+
+function Go() {
+   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it!" ;
   opt1.innerHTML = "Restart";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
 }
   
+function Stay() {
+   story.innerHTML = "The army finds you, and your life ends here." ;
+  opt1.innerHTML = "Restart";
+  opt1.onclick = function() {restart()};
+  opt2.innerHTML = "";
+  opt2.onclick = "";
+}
 
 function restart() {
    story.innerHTML = "Ready to be Challenged?";
   opt1.innerHTML = "Defenentally!";
-  opt1.onclick = function() {play()};
+  opt1.onclick = function() {restart()};
   opt2.innerHTML = "Is it scary?";
   opt2.onclick = function() {boring()};
 }
