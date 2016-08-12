@@ -3123,7 +3123,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image:  url("https://s-media-cache-ak0.pinimg.com/564x/e6/c7/f4/e6c7f4df6f0ab03e3d9aa204b0fbb1dd.jpg");
+				background-image:  url("../../images/Baby.jpg");
 				background-size: cover;
 				background-position: center;
 				margin-bottom: -6.5em;
@@ -3233,9 +3233,9 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-image:  url("../../images/Baby.jpg");
+			background-size: cover;
+			background-position: center
 			margin-bottom: -6.5em;
 		}
 
