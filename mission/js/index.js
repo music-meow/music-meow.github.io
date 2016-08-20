@@ -22,7 +22,7 @@ function play() {
 
 function Run() {
    story.innerHTML = "You are a slow runner! Your life has ended here. Such a short life!";
-  opt1.innerHTML = "Restart";
+  opt1.innerHTML = "Try Again";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
@@ -38,7 +38,7 @@ function Hide() {
 
 function Up() {
    story.innerHTML = "You go to the top,you close the door, and are ambushed by the army. That is the end of your life.";
-  opt1.innerHTML = "Restart";
+  opt1.innerHTML = "Try Again";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = ""
@@ -54,7 +54,7 @@ function Down() {
 
 function Go() {
    story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it!" ;
-  opt1.innerHTML = "Yes!!!";
+  opt1.innerHTML = "Thank You!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
@@ -62,7 +62,7 @@ function Go() {
   
 function Stay() {
    story.innerHTML = "The army finds you, and your life ends here." ;
-  opt1.innerHTML = "Restart";
+  opt1.innerHTML = "Try Again";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
