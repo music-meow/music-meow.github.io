@@ -21,8 +21,8 @@ function play() {
 }
 
 function Run() {
-   story.innerHTML = "You are a slow runner! Your life has ended here. Such a short life!";
-  opt1.innerHTML = "Try Again";
+   story.innerHTML = "You are one slow runner, Agent " +name+ "! Your life has ended here. Such a short life!";
+  opt1.innerHTML = "I'll go faster";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
