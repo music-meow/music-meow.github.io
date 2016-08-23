@@ -73,7 +73,7 @@ function Cool() {
    story.innerHTML = "Don't over react Agent "  +name+ ".";
   opt1.innerHTML = "K";
   opt1.onclick = function() {restart()};
-  opt2.innerHTML = ""Dont over react" Bla Bla Bla";
+  opt2.innerHTML = "Don't over react! Bla Bla Bla";
   opt2.onclick = function() {Sass(};
 }
   
