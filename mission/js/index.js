@@ -64,10 +64,18 @@ function Cool() {
    story.innerHTML = "Don't over react Agent "  +name+ ".";
   opt1.innerHTML = "K";
   opt1.onclick = function() {restart()};
-  opt2.innerHTML = "";
-  opt2.onclick = "";
+  opt2.innerHTML = ""Dont over react" Bla Bla Bla";
+  opt2.onclick = function() {Sass(};
 }
   
+function Sass() {
+  story.innerHTML = "You where knocked out by your Boss.";
+  opt1.innerHTML = "Restart";
+  opt1.onclick = function() {restart()}
+  opt2.innerHTML = ""
+  opt2.onclick = ""
+}
+
 function Stay() {
    story.innerHTML = "The army finds you, and your life ends here." ;
   opt1.innerHTML = "Try Again";
