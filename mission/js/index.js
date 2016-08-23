@@ -37,7 +37,7 @@ function Hide() {
 }
 
 function Up() {
-   story.innerHTML = "You go to the top, you close the door, and are ambushed by the army. That is the end of your life, Agent " +name ".";
+   story.innerHTML = "You go to the top, you close the door, and are ambushed by the army. That is the end of your life, Agent " +name+ ".";
   opt1.innerHTML = "Try Again";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
@@ -53,7 +53,7 @@ function Down() {
 }
 
 function Go() {
-   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it!" ;
+   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it. I will send a private jet to come and get you." ;
   opt1.innerHTML = "Thank You!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
