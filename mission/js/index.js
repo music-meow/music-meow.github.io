@@ -6,7 +6,7 @@ var name;
 function boring() {
   alert("Of course it is!");
   story.innerHTML = "Wimp!"
-  opt1.innerHTML = "Be brave, Be brave!";
+  opt1.innerHTML = "Be brave, be brave!";
   opt1.onclick = function() {restart()}
   opt2.innerHTML = "";
 }
