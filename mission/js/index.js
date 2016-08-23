@@ -74,7 +74,7 @@ function Cool() {
   opt1.innerHTML = "K";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "Don't over react! Bla Bla Bla";
-  opt2.onclick = function() {Sass(};
+  opt2.onclick = function() {Sass()};
 }
   
 function Sass() {
