@@ -21,7 +21,7 @@ function play() {
 }
 
 function Run() {
-   story.innerHTML = "You are one slow runner, Agent " +name+ "! Your life has ended here. Such a short life!";
+   story.innerHTML = "You are one slow runner, Agent " + name + "! Your life has ended here. Such a short life!";
   opt1.innerHTML = "I'll go faster";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
@@ -53,7 +53,7 @@ function Down() {
 }
 
 function Go() {
-   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it!" ;
+   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it. I will send a private jet to come and get you." ;
   opt1.innerHTML = "Thank You!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
