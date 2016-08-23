@@ -6,7 +6,7 @@ var name;
 function boring() {
   alert("Of course it is!");
   story.innerHTML = "Wimp!"
-  opt1.innerHTML = "Be Brave, Be Brave!";
+  opt1.innerHTML = "Be brave, Be brave!";
   opt1.onclick = function() {restart()}
   opt2.innerHTML = "";
 }
@@ -95,7 +95,7 @@ function Stay() {
 
 function restart() {
    story.innerHTML = "Ready to be Challenged?";
-  opt1.innerHTML = "Definitely!";
+  opt1.innerHTML = "Bring it on!!!";
   opt1.onclick = function() {play()};
   opt2.innerHTML = "Is it scary?";
   opt2.onclick = function() {boring()};
