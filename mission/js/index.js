@@ -78,7 +78,7 @@ function Cool() {
 }
   
 function Sass() {
-  story.innerHTML = "You where knocked out by your Boss.";
+  story.innerHTML = "You were knocked out by your Boss.";
   opt1.innerHTML = "Restart";
   opt1.onclick = function() {restart()}
   opt2.innerHTML = ""
