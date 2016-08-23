@@ -61,8 +61,8 @@ function Go() {
 }
 
 function Cool() {
-   story.innerHTML = "Don't over react Agent, "  +name+ ".";
-  opt1.innerHTML = "Okay";
+   story.innerHTML = "Don't over react Agent "  +name+ ".";
+  opt1.innerHTML = "K";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
