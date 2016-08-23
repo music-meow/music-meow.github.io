@@ -53,7 +53,7 @@ function Down() {
 }
 
 function Go() {
-   story.innerHTML = "You battle the army, and win. Good job Agent " +name ", you did it!" ;
+   story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it!" ;
   opt1.innerHTML = "Thank You!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
