@@ -60,7 +60,7 @@ function Go() {
   opt2.onclick = "";
 }
 
-Function Cool() {
+function Cool() {
    story.innerHTML = "Don't over react Agent, "  +name+ ".";
   opt1.innerHTML = "Okay";
   opt1.onclick = function() {restart()};
