@@ -4,7 +4,7 @@ var opt2 = document.getElementById("opt2");
 var name;
 
 function boring() {
-  alert("Why do you care?");
+  alert("Of course it is!");
   story.innerHTML = "Wimp!"
   opt1.innerHTML = "Restart";
   opt1.onclick = function() {restart()}
@@ -37,7 +37,7 @@ function Hide() {
 }
 
 function Up() {
-   story.innerHTML = "You go to the top, you close the door, and are ambushed by the army. That is the end of your life, Agent " +name ".";
+   story.innerHTML = "You go to the top, you close the door, and are ambushed by the army. That is the end of your life, Agent " +name+ ".";
   opt1.innerHTML = "Try Again";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
