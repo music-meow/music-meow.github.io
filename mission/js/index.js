@@ -54,7 +54,7 @@ function Down() {
 
 function Go() {
    story.innerHTML = "You battle the army, and win. Good job Agent " +name+ ", you did it. I will send a private jet to come and get you." ;
-  opt1.innerHTML = "Thank You!";
+  opt1.innerHTML = "Okay";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
