@@ -63,7 +63,7 @@ function Go() {
 
 function Drive() {
    story.innerHTML = "You drive off a cliff that is 100ft high." ;
-  opt1.innerHTML = "I will watch more carefully next time";
+  opt1.innerHTML = "I'll watch where I'm going next time.";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
@@ -79,7 +79,7 @@ function Cool() {
   
 function Sass() {
   story.innerHTML = "You were knocked out by your Boss.";
-  opt1.innerHTML = "Restart";
+  opt1.innerHTML = "I'll watch my mouth next time.";
   opt1.onclick = function() {restart()}
   opt2.innerHTML = ""
   opt2.onclick = ""
