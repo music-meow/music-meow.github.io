@@ -62,8 +62,8 @@ function Go() {
 
 
 function Drive() {
-   story.innerHTML = "Ok we will meet you there" ;
-  opt1.innerHTML = "Alright";
+   story.innerHTML = "You drive off a cliff that is 100ft high." ;
+  opt1.innerHTML = "I will watch more carefully next time";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
