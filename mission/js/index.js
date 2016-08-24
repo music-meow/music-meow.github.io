@@ -79,7 +79,7 @@ function Cool() {
   
 function Sass() {
   story.innerHTML = "You were knocked out by your Boss.";
-  opt1.innerHTML = "I'll watch my mouth next time.";
+  opt1.innerHTML = "I'll try to watch my mouth.";
   opt1.onclick = function() {restart()}
   opt2.innerHTML = ""
   opt2.onclick = ""
