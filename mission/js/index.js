@@ -92,7 +92,6 @@ function Party() {
   opt2.innerHTML = "";
   opt2.onclick = "";
 }
-  <li><a href="https://music-meow.github.io/PARTY!!!/" class="Example of dot-circle-o fa-dot-circle-o " title="PARTY!!!"></a></li>
 
 function Sass() {
   story.innerHTML = "You were knocked out by your Boss.";
