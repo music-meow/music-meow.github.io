@@ -86,7 +86,7 @@ function NCO() {
 }
  
 function Party() {
-   story.innerHTML = "You just go back to Music-Meows home page and click on the 'bulls-eye' icon.";
+   story.innerHTML = "You just go back to Music-Meow's home page and click on the 'bulls-eye' icon.";
   opt.innerHTML = "Ok!"
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
