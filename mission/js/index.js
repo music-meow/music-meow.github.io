@@ -82,7 +82,7 @@ function NCO() {
   opt1.innerHTML = "Ok. I'll just stay home for now.";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "Cool! Can I go to the party?";
-  opt2.onclick = function() {Party()};
+  opt2.onclick = "";
   opt3.innerHTML = "Just go back to Music-Meow's home page and click on the 'bulls-eye' icon and it will get you there."
 }
  
