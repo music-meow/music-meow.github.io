@@ -72,11 +72,29 @@ function Drive() {
 function Cool() {
    story.innerHTML = "Don't over react Agent "  +name+ ".";
   opt1.innerHTML = "K";
-  opt1.onclick = function() {restart()};
+  opt1.onclick = function() {NCO()};
   opt2.innerHTML = "Don't over react! Bla Bla Bla";
   opt2.onclick = function() {Sass()};
 }
-  
+
+function NCO() {
+   story.innerHTML = "Congrats! You made it to safety with out getting killed. You are home and safe. I will let you know, the next mission is to go to a place called party." ;
+  opt1.innerHTML = "Ok. I'll just stay home for now.";
+  opt1.onclick = function() {restart()};
+  opt2.innerHTML = "Cool! Can I go to the party?";
+  opt2.onclick = function() {Party()};
+}
+ 
+function Party() {
+   story.innerHTML = "Here is the link to the Party:" ;
+  opt1.innerHTML = "";
+  opt1.onclick = "";
+  opt2.innerHTML = "";
+  opt2.onclick = "";
+  <li><a href="https://music-meow.github.io/PARTY!!!/" class="Example of dot-circle-o fa-dot-circle-o " title="PARTY!!!"></a></li>
+
+}
+
 function Sass() {
   story.innerHTML = "You were knocked out by your Boss.";
   opt1.innerHTML = "I'll try to watch my mouth.";
