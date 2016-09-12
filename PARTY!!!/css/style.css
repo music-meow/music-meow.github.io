@@ -1,0 +1,25 @@
+#story {
+  width: 100%;
+  height: 150px;
+  background: GREEN;
+}
+.button {
+  width: 200px;
+  height: 55px;
+  border: dotted;
+  float:left;
+  border-color: aqua;
+}
+#opt1 {
+  background: BLUE;
+}
+#opt2 {
+  background: PURPLE;
+  border-color: violet;
+}
+
+body{
+  background-color:black;
+  border:dotted;
+  border-color:lime;
+}
