@@ -36,7 +36,7 @@ function play() {
 }
 
 function SBH() {
-   story.innerHTML = "You find all the bones required on the 'Bone List'. You have accomplished the first task Agent " +name+ ". Well done! The first task is finished. Do you want to move on to the next task?";
+   story.innerHTML = "You find all the bones required on the 'Bone List'. You have accomplished the first task, " +name+ ". Well done! The first task is finished. Do you want to move on to the next task?";
   opt1.innerHTML = "I'm going home.";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "I'm going to finish this thing.";
@@ -150,7 +150,7 @@ function Animals() {
 }
 
 function next() {
-  story.innerHTML = "Good job Agent " + name + "! You did. And this was supposed to be some sort of... party!";
+  story.innerHTML = "Good job " + name + "! You did. And this was supposed to be some sort of... party!";
   opt1.innerHTML = "PAR-TAY!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
