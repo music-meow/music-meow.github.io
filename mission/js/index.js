@@ -83,15 +83,9 @@ function NCO() {
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "Cool! Can I go to the party?";
   opt2.onclick = function() {Party()};
+  opt3.innerHTML = "Just go back to Music-Meow's home page and click on the 'bulls-eye' icon and it will get you there."
 }
  
-function Party() {
-   story.innerHTML = "Here is the link to the Party:" ;
-  opt1.innerHTML = "";
-  opt1.onclick = "";
-  opt2.innerHTML = "";
-  opt2.onclick = "";
-}
 
 function Sass() {
   story.innerHTML = "You were knocked out by your Boss.";
