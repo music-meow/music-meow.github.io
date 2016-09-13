@@ -11,15 +11,15 @@
 }
 #opt1 {
   background: pink;
-  border-color:yellow;
+  border-color:aqua;
 }
 #opt2 {
   background: yellow;
-  border-color:blue;
+  border-color:pink;
 }
 
 body{
   background-color:black;
   border:dotted;
-  border-color:pink;
+  border-color:yellow;
 }
