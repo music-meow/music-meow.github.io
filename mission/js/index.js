@@ -87,7 +87,7 @@ function NCO() {
  
 function Party() {
    story.innerHTML = "You just go back to Music-Meow's home page and click on the 'bulls-eye' icon. (Sorry just click 'Ok. I'll just stay home for now.'' It's an error that we will fix soon.)";
-  opt.innerHTML = "Ok!"
+  opt1.innerHTML = "Ok!";
   opt1.onclick = function() {restart()};
   opt2.innerHTML = "";
   opt2.onclick = "";
