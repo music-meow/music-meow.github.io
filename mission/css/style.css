@@ -8,16 +8,18 @@
   height: 30px;
   border: dotted;
   float:left;
-  border-color: turquoise
 }
 #opt1 {
   background: pink;
+  border-color:yellow;
 }
 #opt2 {
   background: yellow;
+  border-color:blue;
 }
 
 body{
   background-color:black;
   border:dotted;
+  border-color:pink;
 }
