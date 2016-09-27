@@ -1,3 +1,30 @@
 body {
-	background-color:yellow;
+  background-color:black;
+}
+
+h3 {
+  color:gold;
+}
+h3 {
+  border:groove;
+}
+h3 {
+  background-color:black;
+}
+body {
+  background-color:black;
+}
+img { float: left;}
+div {clear: both;}
+a {
+  color:gold
+}
+td {
+  color:gold
+}
+td {
+  background-color:black
+}
+td{
+  border:solid
 }
